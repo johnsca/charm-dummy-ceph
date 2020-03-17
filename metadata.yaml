@@ -1,0 +1,11 @@
+name: dummy-ceph
+summary: dummy charm to test ceph-fs issue
+description: see above
+tags: [test]
+maintainers: [me <johnsca@gmail.com>]
+series: [bionic]
+requires:
+  ceph-admin:
+    interface: ceph-admin
+  ceph-client:
+    interface: ceph-client
